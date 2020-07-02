@@ -26,7 +26,7 @@ def scrape(colum, regex, variable):
         variable.append(number)
 scrape("2", "\d", ConfimedCases)
 scrape("3", "\d", Deaths)
-scrape("4", "\d", ProbableCases)
+
 
 print(ConfimedCases)
 print(Deaths)
